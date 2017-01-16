@@ -1,0 +1,27 @@
+body{
+	color:#fff;
+}
+.border{
+	border:1px solid #000;
+}
+.header1{
+	text-align:center;
+	background-color:red;
+	margin-top:10px;
+	border-radius:50px;
+	height:200px;
+}
+.header2{
+	text-align:center;
+	background-color:skyblue;
+	margin-top:10px;
+	border-radius:50px;
+	height:200px;
+}
+.header3{
+	text-align:center;
+	background-color:pink;
+	margin-top:10px;
+	border-radius:50px;
+	height:200px;
+}

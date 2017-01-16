@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="Generator" content="EditPlus®">
+<meta name="Author" content="">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<title>bootstrap-templatecarousel</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/custom.css"/>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse custom-navbar">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">website name</a>
+		</div>
+		<div>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="#">home</a></li>
+				<li><a href="#">about us</a></li>
+				<li><a href="#">our works</a></li>
+				<li><a href="#">contact us</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<!--indicators-->
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+	</ol>
+	<!--wrappers for sliders-->
+	<div class="carousel-inner" role="listbox">
+		<div class="item active">
+			<img src="images/IMG_20150803_121214235.jpg" border="0" alt="">
+		</div>
+		<div class="item">
+			<img src="images/IMG_20150718_120845851_HDR.jpg" border="0" alt="">
+		</div>
+		<div class="item">
+			<img src="images/IMG_20151004_091009266.jpg" border="0" alt="">
+		</div>
+	</div>
+	<!--slider buttons-->
+	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">previous</span>
+	</a>
+	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">next</span>
+	</a>
+  </div>
+</body>
+</html>

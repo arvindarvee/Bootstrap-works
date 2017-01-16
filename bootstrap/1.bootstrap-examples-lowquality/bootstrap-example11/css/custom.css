@@ -1,0 +1,24 @@
+body{
+	color:#fff;
+}
+.border{
+	border:1px solid #000;
+}
+.header{
+	text-align:center;
+	background-color:red;
+	margin-top:10px;
+}
+.below-header{
+	text-align:center;
+	background-color:skyblue;
+	margin-top:10px;
+	height:200px;
+}
+.para{
+	margin-top:10px;
+	margin-left:50px;
+	background-color:crimson;
+	text-align:center;
+	color:#fff;
+}

@@ -1,0 +1,25 @@
+body{
+	text-align:justify;
+	overflow:hidden;
+}
+.border{
+	border:1px solid #000;
+}
+.color1{
+	background-color:green;
+}
+.color2{
+	background-color:crimson;
+}
+.color3{
+	background-color:skyblue;
+}
+.color4{
+	background-color:grey;
+}
+.color5{
+	background-color:orange;
+}
+.color6{
+	background-color:yellow;
+}

@@ -1,0 +1,131 @@
+/*******General css*******
+***************************/
+body{
+	background:url("../images/bg-body.jpg") no-repeat;
+	background-size:cover;
+}
+.custom-box p{
+	font-size:12px;
+	color:#7A8080;
+}
+/*******custom header css*******
+***************************/
+.custom-header{
+		padding-top:24px;
+}
+.custom-header .navbar-default{
+	background-color:transparent;
+	border:none;
+}
+.custom-header .navbar-header img{
+	position:relative;
+	left:-96px;
+	z-index:1;
+}
+.custom-header .custom-right{
+	display:inline-block;
+	padding-top:10px;
+	position:relative;
+	left:-20px;
+}
+
+/*******custom navbar collapse css*******
+***************************/
+.custom-navbar-collapse{
+	margin-top:30px;
+	background-color:#000;
+}
+.custom-navbar-collpase-sub{
+}
+.custom-navbar-collpase-sub ul{
+	margin-top:10px;
+	margin-bottom:-18px;
+}
+.custom-navbar-collpase-sub ul li{
+	list-style-type:none;
+	padding:0px 0px 0px 16px;
+}
+.custom-navbar-collpase-sub ul li a{
+	color:#fff;
+	text-decoration:none;
+}
+.custom-navbar-collpase-sub ul li.active a{
+	background-color:#ccc;
+	padding:13px 6px;
+}
+.custom-navbar-collpase-sub ul li:hover a{
+	background-color:#ccc;
+	padding:13px 6px;
+}
+/*******custom box css*******
+***************************/
+.custom-box{
+	background:#E8F2F3;
+	padding:0px 20px;
+	margin-top:20px;
+}
+/*******custom-section1  css*******
+***************************/
+.custom-section1{
+	padding-top:10px;
+}
+ .custom-section1 h3{
+	color:#747A7A;
+ }
+ .custom-section1 a{
+	color:#D4848F;
+	text-decoration:none;
+	word-spacing:4px;
+	margin-top:-6px;
+	display:block;
+ }
+ /*******custom-section2  css*******
+***************************/
+.custom-section2{
+	margin-top:20px;
+}
+.custom-section2-sub1{
+	padding:4px 0px 0px 4px;
+	background-color:#fff;
+}
+ /*******custom-section3 css*******
+***************************/
+.custom-section3{
+	margin-top:10px;
+	margin-bottom:26px;
+}
+.custom-section3 h5{
+	font-size:16px;
+}
+.custom-section3-sub1{
+	padding:4px 0px 0px 10px;
+	background-color:#DDE3E3;
+}
+ /*******custom-section4 css*******
+***************************/
+.custom-section4-subcommon ul li{
+	color:#CD7164;
+}
+.custom-section4-subcommon span{
+	color:#CD7164;
+	font-weight:bold;
+}
+ /*******custom-section5 css*******
+***************************/
+.custom-section5 h4{
+	font-weight:bold;
+	color:#747879;
+}
+.custom-section5 h6{
+	font-size:12px;
+	padding-top:10px;
+	color:#7A8080;
+}
+ /*******custom-footer css*******
+***************************/
+.custom-footer{
+	background-color:#A5B4AF;
+	padding:0 20px;
+	color:#000;
+	margin-bottom:20px;
+}

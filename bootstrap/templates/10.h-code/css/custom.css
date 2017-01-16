@@ -1,0 +1,492 @@
+/**************custom general css*************
+***********************************************/
+.custom-topic{
+	padding:60px 0px 70px;
+	text-align:center;
+}
+.custom-topic h3{
+	font-weight:bold;
+}
+.span-line{
+	padding:2px 0px;
+	width:34px;
+	background-color:#E5B026;
+	display:block;
+}
+.custom-what{
+	background-color:#000000;
+	padding:80px 0px 120px;
+	text-align:center;
+}
+
+
+/**************custom navbar css*************
+***********************************************/
+.custom-navbar{
+	background-color:transparent;
+	border:none;
+}
+.custom-navbar .navbar-header{
+	padding:20px 70px;
+}
+.custom-navbar .navbar-nav{
+	padding-top:32px;
+	padding-right:80px;
+}
+
+.custom-navbar .navbar-nav  li{
+	padding-right:20px;
+}
+.custom-navbar .navbar-nav  li a,.custom-navbar .navbar-nav  li.active a{
+	color:#000;
+	background-color:transparent;
+	font-size:13px;
+}
+.custom-navbar .navbar-nav  li:hover a{
+	color:000;
+}
+.custom-navbar .navbar-nav  li.active a:hover,.custom-navbar .navbar-nav  li a:hover{
+	background-color:transparent;
+	color:000;
+	border-bottom:3px solid #000;
+	font-size:16px;
+	font-weight:bolder;
+}
+
+/**************custom banner css*************
+***********************************************/
+
+.custom-banner{
+}
+.custom-bg{
+	background:url("../images/banner.jpg") no-repeat 0px 0px;
+	height:726px;
+	background-size:100%;
+	margin:0 -15px;
+}
+.custom-banner .carousel-inner{
+	height:616px;
+	padding:100px 0px 0px;
+}
+.custom-banner .carousel-inner h1{
+	padding:44px 30px;
+	background-color:#000000;
+	display:inline-block;
+	color:#fff;
+	line-height:66px;
+	font-family:monospace;
+	font-size:56px;
+	margin-left:60px;
+} 
+.custom-banner .carousel-inner p{
+	padding-top:20px;
+	line-height:20px;
+	font-weight:500;
+	margin-left:60px;
+}
+.custom-banner .carousel-inner span{
+	padding:2px 20px;
+	background-color:#000;
+	display:inline-block;
+	margin-top:20px;
+	margin-left:60px;
+}
+
+.bannerside-icon a{
+	display:block;
+	width:50px;
+	position:relative;
+	top:-450px;
+	left:1434px;
+	margin-bottom:-2px;
+}
+.custom-carosuel{
+
+}
+.custom-banner .carousel-control{
+	margin:0 -15px;
+}
+/**************custom about css*************
+***********************************************/
+.custom-about-sub-in{
+	padding-bottom:80px;
+	border-bottom:1px solid #ccc;
+}
+
+	
+.custom-about-topic h3{
+	font-weight:bolder;
+	color:#000;
+	word-spacing:20px;
+}
+.custom-about-sub-in{
+	
+}
+.custom-about-sub-in h1{
+	color:#FAF081;
+	font-size:54px;
+	font-weight:lighter;
+}
+.custom-about-sub-in h2{
+	border-left:1px solid #999;
+	padding-left:30px;
+	font-weight:normal;
+	color:#000;
+}
+.custom-about-sub-in p{
+	padding-left:30px;
+	padding-top:10px;
+	font-size:16px;
+	color:#999;
+}
+/**************custom employee css*************
+***********************************************/
+.custom-employee-topicpara{
+	text-align:center;
+	font-size:18px;
+	padding-top:110px;
+	color:#999;
+}
+.employee-sub{
+	padding-top:60px;
+}
+.employee-sub-in{
+	text-align:center;
+}
+.employee-sub-in img{
+	border-bottom:1px solid #ccc;
+}
+.employee-sub-in h5{
+	font-size:13px;
+	color:#000;
+	font-weight:bold;
+	padding-top:20px;
+}
+.employee-sub-in p{
+	font-size:13px;
+	color:#999;
+}
+.employee-sub-in .span-line{
+	margin:20px auto 30px;
+}
+.employee-sub-in a{
+	padding-right:20px;
+	
+}
+.employee-sub1{
+	text-align:center;
+	padding:80px 0px 140px;
+}
+.employee-sub1 h3{
+	padding-bottom:32px;
+}
+.employee-sub1 .btn{
+	padding:20px 60px;
+	border-radius:0px;
+	border:8px solid #000;
+	font-size:20px;
+	color:#000;
+	font-weight:bolder;
+}
+
+/**************custom what css*************
+***********************************************/
+
+.custom-what .custom-topic{
+	padding:0px 0px 70px;
+	
+}
+.custom-what-sub1{
+	color:#fff;	
+}
+.custom-what-sub1 h3{
+	font-size:20px;
+	word-spacing:5px;
+}
+.custom-what-sub2{
+	text-align:center;
+	padding-top:30px;
+}
+.custom-what-sub2 h5{
+	font-size:13px;
+	padding-top:24px;
+	color:#fff;
+	font-weight:bold;
+}
+.custom-what-sub2 p{
+	font-size:13px;
+	padding-top:4px;
+	color:#999;
+}
+
+/**************custom services css*************
+***********************************************/
+.custom-services-sub{
+	text-align:center;
+}
+.custom-services-sub a{
+	padding:0px 50px;
+	border-left:1px solid #999;
+	display:inline-block;
+}
+.custom-services-sub a:first-child{
+	border:none;
+}
+.custom-services-sub1{
+	padding:80px 0px;
+}	
+.custom-services-sub1-in1 h5{
+	padding-bottom:10px;
+	font-size:18px;
+	font-weight:bold;
+}
+.custom-services-sub1-in1 p{
+	padding-top:30px;
+	font-size:18px;
+}
+
+.custom-services-sub1-in2 p{
+	font-size:16px;
+	padding-bottom:10px;
+	color:#999;
+}
+.custom-services-sub2{
+	text-align:center;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	padding:26px 0px;
+}
+.custom-services-sub2 h3{
+	font-weight:lighter;
+	font-size:20px;
+	word-spacing:10px;
+	letter-spacing:2px;
+}
+.custom-services-sub2 span{
+	font-weight:bold;
+	font-size:20px;
+}
+.custom-services-sub3{
+	text-align:center;
+	padding:50px 0px;
+}
+.custom-services-sub3 p{
+	color:#999;
+	letter-spacing:2px;
+	word-spacing:4px;
+	font-size:13px;
+}
+.custom-services-sub3 h1{
+	color:#000;
+	font-size:46px;
+	letter-spacing:1px;
+}
+
+/**************custom loading css is takena s common with what css-modified by reaarranging classes of css what*************
+***********************************************/
+
+
+/**************custom work css*************
+***********************************************/
+.custom-work-sub1 .custom-work-topicpara{
+	text-align:center;
+	font-size:18px;
+	color:#999;
+}
+.custom-work .custom-topic{
+	padding-bottom:30px;
+}
+.custom-navbar2{
+	padding:30px 300px 0px 0px;
+}
+.custom-navbar2 li a{
+	padding-right:40px;
+	font-size:13px;
+	color:#000;
+}
+.custom-navbar2 li a:hover{
+	background-color:transparent;
+}
+.custom-navbar2 li.active a:hover{
+	border-bottom:1px solid #000;
+}
+.custom-work-sub3-in{
+	margin:0px -15px;
+}
+.custom-work-sub3-in img{
+	width:100%;
+}
+.custom-work-sub3{
+	padding-top:36px;
+}
+.custom-work-sub4{
+	padding:80px 0px;
+}
+.custom-work-sub4-in{
+	text-align:center;
+}
+.custom-work-sub4 h1{
+	color:#FDEE61;
+	font-size:54px;
+}
+.custom-work-sub4 p{
+	color:#000;
+	font-weight:500;
+	font-size:14px;
+}
+.custom-work-sub4 span{
+	padding:2px 0px;
+	width:34px;
+	background-color:#D5D5D5;
+	display:inline-block;
+}
+
+/**************custom testimonials css*************
+***********************************************/
+.custom-testimonials{
+	background-color:#000000;
+	padding:30px 0px;
+}
+.custom-testimonials h3{
+	color:#fff;
+}
+.custom-testimonials .custom-topic p{
+	padding-top:60px;
+}
+.custom-testimonials .custom-topic h5{
+	padding-top:20px;
+}
+/**************custom blogs css*************
+***********************************************/
+.custom-blog-sub1-in h5{
+	color:#000;
+	font-weight:bold;
+	padding-top:32px;
+	font-size:13px;
+	letter-spacing:2px;
+}
+.custom-blog-sub1-in h6{
+	color:#999;
+	letter-spacing:2px;
+}
+.custom-blog-sub1-in p{
+	color:#999;
+	padding-top:16px;
+}
+.view-button{
+	text-align:center;
+	padding:40px 0px 80px;
+}
+.view-button .btn{
+	padding:10px 36px;
+	border:none;
+	border-radius:0px;
+	color:#fff;
+	background-color:#000;
+	font-size:13px;
+	font-weight:bold;
+}
+
+/**************custom client-roll css*************
+***********************************************/
+
+.custom-client-roll{
+	background-color:#000;
+	text-align:center;
+	padding:140px 0px 100px;
+}
+.custom-client-roll a{
+	padding:0px 80px 0px 20px;
+}
+/**************custom contact css*************
+***********************************************/
+.custom-contacts-sub1{
+	padding:40px 0px 100px;
+	border-bottom:1px solid #999;
+}
+.custom-contacts-sub1-in{
+	text-align:center;
+}
+.custom-contacts-sub1-in p{
+	padding-top:30px;
+	font-family:monospace;
+	font-size:14px;
+	font-weight:bold;
+}
+
+/**************custom forms css*************
+***********************************************/
+.custom-forms{
+	padding:80px 0px;
+}
+.custom-forms-sub1 .form-control{
+	height:50px;
+}
+.custom-forms-sub1 .form-group{
+padding:10px 0px 0px;	
+}
+.custom-forms p{
+	font-size:12px;	
+}
+.custom-forms-sub2 .form-group{
+padding:10px 0px 0px;	
+}
+.custom-forms-sub2 .form-control{
+	height:120px;
+}
+.custom-form-submitbutton-sub .btn{
+	background-color:#000;
+	border:none;
+	border-radius:0px;
+	padding:16px 20px;
+	color:#fff;
+	font-weight:bold;
+}
+
+/**************custom completed project css*************
+***********************************************/
+
+.custom-completed-projects{
+	background:url("../images/completedprojects-bg.jpg") no-repeat;
+	background-size:100%;
+	padding:80px 0px 120px;
+}
+.custom-completed-projects-sub2{
+	text-align:center;
+	padding-top:30px;
+}
+.custom-completed-projects-sub2 h1{
+	padding-top:16px;
+	color:#fff;
+	font-weight:lighter;
+	font-size:50px;
+}
+
+.custom-completed-projects-sub2 p{
+	font-size:13px;
+	padding-top:4px;
+	color:#999;
+}
+/**************custom footersets css*************
+***********************************************/
+.custom-footersets1-sub1{
+	padding:40px 0px 60px;
+	border:none;
+}
+.custom-footersets2{
+	text-align:center;
+	background-color:#F4F4F4;
+	padding:40px 0px;
+}
+.custom-footersets2 a{
+	padding:0px 24px;
+}
+.custom-footersets3{
+	background-color:#252525;
+	padding:30px 0px 20px;
+}
+.custom-footersets3 p{
+	color:#ccc;
+	font-size:13px;
+	padding-top:6px;
+}

@@ -1,0 +1,224 @@
+/*************************header plus navigation css************
+****************************************************************/
+.white-background{
+	background-color:#ffffff;
+	border:none;
+	margin-bottom:20px;
+	margin-top:10px;
+}
+
+.custom-pull-right{
+	width:360px;
+}
+.custom-pull-right p{
+	font-size:18px;
+	margin-bottom: 0;
+}
+/*************************header plus navigation css************
+****************************************************************/
+.custom-pull-right h1{
+	background:url("../images/phone.icon.jpg") no-repeat 4px 3px;
+	font-size: 28px;
+    margin-top: 3px;
+    padding: 7px 9px 3px 50px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.customnavbar{
+	background-color:#00b6b9;
+}
+.customnavbar ul li a{
+	color:#fff;
+	font-size:18px;
+	font-weight:500;
+}
+.custom-navbar-brand {
+    float: left;
+    font-size: 18px;
+    height: 80px;
+    line-height: 20px;
+    margin: -10px 8px 10px 15px;
+}
+
+.custom-big-gallery{
+	background-color:#00b5b8;
+	color:#ffffff;
+}
+.custom-gallery1 h2 {
+    background: url("../images/gal-menu-1-teeth.jpg") no-repeat scroll 0 center, none repeat scroll 10px center rgba(0, 0, 0, 0);
+    font-size: 33px;
+    padding: 13px 0 13px 90px;
+}
+.custom-gallery2 h2{
+	background:url("../images/gal-menu-2-pulse.jpg") no-repeat 0,10px;
+    font-size: 33px;
+    padding: 13px 0 13px 90px;
+}
+.custom-gallery3 h2{
+	background:url("../images/gal-menu-3-firstaid.jpg") no-repeat 0,10px;
+	font-size: 33px;
+    padding: 13px 0 13px 90px;
+}
+
+.custom-gallery1 p,.custom-gallery2 p,.custom-gallery3 p{
+	padding:20px 0px;
+	font-size:16px;
+	text-align:justify;
+	line-height:1.6em;
+}
+
+
+
+.what-we-text{
+	padding:60px;
+}
+
+.gal-what-we-text-1{
+	background-color:#f5f5f5;
+	padding:30px;
+	text-align:center;
+	border:none;
+}
+.gal-what-we-text-1 h3{
+	color:#09aab4;
+}
+.gal-what-we-text-1 p{
+	color:#a39892;
+	font-size:16px;
+}
+.white-readmore-button{
+	border-radius:1px;
+	background-color:#09aab4;
+	padding:10px 20px;
+	font-size:18px;
+	margin-top:10px;
+}
+.gal-what-we-text-1-1{
+	background-color:#ccc;
+	padding:0px;
+	text-align:center;
+
+}
+.gal-what-we-text-1-1 img{
+	width:100%;
+	border:none;
+
+}
+.gal-latest-news{
+	margin-top:80px;
+}
+.gal-latest-news-1 h2{
+	font-weight:bolder;
+	padding-bottom:10px;
+}
+.gal-latest-news-1 h3{
+	color:#09aab4;
+}
+.gal-latest-news-1 P{
+	color:#a39892;
+	font-size:16px;
+}
+.empty-text{
+	margin-top:73px;
+}
+
+.latest-para-menu-3{
+	background-color:#eeeeee;
+	padding:20px;
+	border-radius:5px;
+	margin-bottom:30px;
+	margin-top:20px;
+	font-size:16px;
+}
+
+.docters-text{
+	margin-top:40px;
+}
+.doctor-list{
+	margin-top:10px;
+	text-align:center;
+}
+.doctor-list img{
+	padding-left:64px;
+}
+.doctor-list-1{
+	color:#a39892;
+	font-size:16px;
+}
+
+.twitter-big{
+	margin-top:80px;
+	padding:20px;
+	background-color:#00b5b8;
+}
+.twitter{
+	padding:10px;
+}
+
+.twitter p{
+	background:url("../images/twitter-icon.jpg") no-repeat 10px,10px;
+	padding:20px 0px 20px 60px ;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+}
+.twitter a{
+	text-decoration:underline;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+}
+.twitter-prev-next-button{
+	position:relative;
+	top:20px;
+	left:10px;
+}
+
+.above-footer{
+	background-color:#263838;
+}
+.above-footer-1 ul li{
+	list-style-type:none;
+}
+.above-footer-1{
+		color:#fff;
+		padding-right:10px;
+		padding-bottom:30px;
+}
+.above-footer-1 ul li {
+	padding-top:10px;
+	padding-left:20px;
+	font-size:16px;
+	background:url("../images/list-arrow1.png") no-repeat 0px 17px;
+}
+.above-footer-1 ul li a{
+	color:#fff;
+	
+}
+.right-border{
+	border-right:1px solid #ccc;
+}
+
+.above-footer-1 p1{
+		background:url("../images/mobile.jpg") no-repeat left top;
+		padding:10px 34px;
+	}
+	.above-footer-1 p2{
+		background:url("../images/mail.jpg") no-repeat left top;
+		padding:0px 0px 10px 30px;
+		 
+	}
+
+.above-footer-1 h3{
+	font-size:19px;
+}
+.footer-end{
+	border-top:1px solid #ccc;
+	padding-top:30px;
+}
+.footer-end p{
+	color:#00b6b9;
+}
+
+
+

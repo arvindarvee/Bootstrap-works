@@ -1,0 +1,9 @@
+.border
+{
+	border:1px solid black;
+}
+.custom-navbar{
+	min-height:100px;
+	padding:20px 0px;
+	background-color:blue;
+}

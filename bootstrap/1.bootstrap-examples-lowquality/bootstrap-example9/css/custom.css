@@ -1,0 +1,21 @@
+.border{
+	border:1px solid #000;
+}
+.table1{
+	background-color:green;
+	color:#fff;
+	height:10px;
+	border:1px solid #fff;
+}
+.table2{
+	background-color:yellow;
+	color:#ccc;
+	height:10px;
+	border:1px solid #fff;
+}
+.table3{
+	background-color:orange;
+	color:#fff;
+	height:10px;
+	border:1px solid #fff;
+}

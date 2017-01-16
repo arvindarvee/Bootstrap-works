@@ -1,0 +1,17 @@
+body{
+	color:#ccc;
+}
+.border
+{
+	border:1px solid black;
+}
+.heightful-header{
+	height:100px;
+	background-color:yellow;
+	width:100%;
+	text-align:center;
+	color:#ffffff;
+}
+.empty-center{
+	height:50px;
+}

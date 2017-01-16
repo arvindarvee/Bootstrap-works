@@ -1,0 +1,460 @@
+body{
+	overflow-x:hidden;
+}
+/*****************custom navbar css****************
+****************************************************/
+.custom-navbar{
+	background:transparent;
+	border:none;
+}
+
+.custom-navbar .pull-right a{
+	display:inline-block;
+	color:#000;
+	margin-right:20px;
+	margin-top:20px;
+	font-weight:bold;
+	font-size:15px;
+	text-decoration:none;
+	letter-spacing:1px;
+}
+
+.custom-navbar .pull-right a:first-child{
+	background:url("../images/nav-icon-clock.jpg") no-repeat 0px -2px;
+	padding-left:50px;
+}
+.custom-navbar .pull-right a:nth-child(2){
+	background:url("../images/nav-icon-maplocation.jpg") no-repeat 0px -2px;
+	padding-left:50px;
+}
+.custom-navbar .pull-right a:nth-child(3){
+	background:url("../images/nav-icon-callphone.jpg") no-repeat 0px -2px;
+	padding-left:50px;
+}
+
+.custom-navbar .pull-right a span{
+	color:#666666;
+	font-weight:normal;
+} 
+.custom-navbar .pull-right a span.email-link{
+	color:#ccc;
+	font-weight:normal;
+} 
+
+
+/*****************custom navbar-collapse css****************
+****************************************************/
+.custom-navbar-collapse{
+	background-color:#323946;
+	font-weight:bold;
+	padding:8px 0px;
+}
+.custom-navbar-collapse li a{
+	color:#fff;
+}
+.custom-navbar-collapse li:hover  a{
+	background-color:transparent;
+	color:#29a3d8;
+}
+.custom-navbar-collapse li a:active{
+	background-color:transparent;
+	color:#fff;
+}
+.custom-navbar-collapse li  a:focus{
+	color:#fff;
+	background-color:transparent;
+}
+
+.custom-navbar-collapse li.active a{
+	color:#29a3d8;
+}
+.custom-navbar-collapse li.active:hover a{
+	color:#fff;
+}
+.custom-navbar-collapse  li.active  a:focus{
+	background-color:transparent;
+	color:#fff;
+}
+
+.custom-navbar-collapse li a span.caret{
+	color:#29a3d8;
+}
+
+/*****************custom banner with carousel css****************
+****************************************************/
+.custom-banner{
+	background:url("../images/banners.png") no-repeat 100% 100%;
+	height:405px;
+}
+.custom-carousel{
+	
+	position:relative;
+}
+.custom-carousel .carousel-inner
+{
+	height:405px;
+}
+.custom-carousel .item{
+	padding-top:100px;
+	padding-left:120px;
+}
+.custom-carousel .item h1{
+	font-size:55px;
+	font-weight:bolder;
+}
+.custom-banner .btn{
+	padding:14px 30px;
+}
+.custom-banner .btn-primary{
+	background-color:transparent;
+	border:2px solid #ccc;
+	color:#999999;
+}
+.custom-banner .btn-primary:hover{
+	background-color:#fff;
+	border:2px solid #999;
+	color:#000;
+}
+.custom-banner .carousel-indicators{
+	
+}
+
+/*****************custom gallery css****************
+****************************************************/
+.custom-gallery{
+	margin-top:60px;
+	text-align:center;
+}
+.custom-gallery h4{
+	font-weight:bold;
+}
+.custom-gallery p{
+	color:#8f668f;
+}
+
+.custom-small-banner{
+	background:url("../images/small-banner.jpg") no-repeat;
+	padding:80px 0px;
+	margin-top:70px;
+}
+.custom-small-banner h3,.custom-small-banner h4,.custom-small-banner .btn{
+	display:inline-block;
+	color:#fff;	
+	margin-top:-10px;
+}
+.custom-small-banner h3{
+	font-weight:bolder;
+	font-size:44px;
+	padding:0px 20px;
+	border-right:1px solid #fff;
+}
+
+.custom-small-banner h4{
+	font-weight:lighter;
+	padding:0px 20px;
+	font-size:18px;
+}
+.custom-small-banner .btn{
+	padding:14px 40px;
+	background-color:#24a3d8;
+	margin-left:60px;
+	color:#fff;
+	font-weight:600;
+	font-size:16px;
+	border:none;
+}
+.custom-small-banner .btn:hover{
+	background-color:#fff;
+	color:#24a3d8;
+	border:none;
+}
+/*****************About us css****************
+****************************************************/
+
+.custom-about-us{
+	text-align:center;
+}
+
+.custom-about-us .small-line{
+	width:100px;
+	height:4px;
+	background-color:#24a3d8;
+	margin:0px auto;
+}
+
+.fas-box{
+	margin-top:40px;
+	font-size:20px;
+	border:1px solid #ccc;
+}
+.fas-box a{
+	padding:14px 40px;
+	border-right:1px solid #ccc;
+	float:left;
+	color:#000;
+	position:relative;
+}
+.fas-box a:hover span{
+	display: inline-block;
+    left: 85px;
+    position: absolute;
+    top: 57px;
+}
+span.caret-type{
+	background:url("../images/span-arrow.jpg") no-repeat;
+	display:inline-block;
+	width:25px;
+	height:10px;
+	display:none;
+}
+.fas-box a:hover{
+	color:#fff;
+	text-decoration:none;
+}
+.fas-box a:first-child{
+	padding:14px 60px;
+	border-right:1px solid #ccc;
+}
+
+
+.fas-box a:nth-child(3){
+	padding:14px 74px;
+	border-right:none;
+}
+.fas-box a:hover{
+	background:url("../images/images/span-arrow.jpg") no-repeat left top;
+	background-color:#24a3d8;
+}
+
+.fas-box a.active{
+	background-color:#24a3d8;
+	text-decoration:none;
+}
+.fas-box-para{
+	margin-top:30px;
+	color:#07005d;
+
+}
+.fas-box-numbers{
+	margin-top:30px;
+	position:relative;
+	left:20px;
+	font-weight:bolder;
+}
+.fas-box-numbers a{
+	font-size:56px;
+	text-decoration:none;
+	display:inline-block;
+	padding:0px 28px;
+	border-right:1px solid #ccc;
+	color:#24a3d8;
+	font-weight:bold;
+}
+.fas-box-numbers a:last-child{
+	border:none;
+}
+.fas-box-numbers span{
+	font-size:15px;
+	display:block;
+	position:relative;
+	top:-10px;
+	color:#0f0700;
+	opacity:0.8;
+	font-weight:lighter;
+}
+
+.rightpart-aboutus{
+	line-height:1.6em;
+	margin-top:4px;
+	padding:10px;
+}
+.rightpart-aboutus h3{
+	font-weight:bold;
+}
+.rightpart-aboutus .btn{
+	margin-top:20px;
+	background-color:transparent;
+	color:#24a3d8;
+	padding:14px 34px;
+	border:1px solid #24a3d8;
+}
+.rightpart-aboutus .btn:hover{
+
+	background-color:#24a3d8;
+	color:#fff;
+	border:1px solid #24a3d8;
+}
+.rightpart-aboutus p{
+	text-align:justify;
+	color:#000;
+	margin-top:20px;
+	opacity:0.7;
+}
+
+
+/*****************testimonial css****************
+****************************************************/
+.testimonial{
+	margin-top:60px;
+	padding:0px 60px;
+}
+
+.testimonial-gallery{
+	border:1px solid #ccc;
+	padding:40px;
+}
+.testimonial-gallery .testimonial-image{
+	border-top:1px solid #ccc;
+	width:100%;
+}
+.testimonial-image img{
+	background-color:#fff;
+	padding:0 20px;
+	position:relative;
+	top:-30px;
+	left:60px;
+}
+.testimonial-gallery p{
+	text-align:center;
+	color:#000;
+	opacity:0.6;
+}
+.testimonial-gallery h5{
+	text-align:center;
+	font-weight:bolder;
+	margin-top:20px;
+}
+.testimonial-gallery .testimonial-span-text{
+	text-align:center;
+	font-weight:lighter;
+	margin-top:2px;
+	display:block;
+	color:#999999;
+}
+/*****************client-roll css****************
+****************************************************/
+.client-roll{
+	background-color:#f9f9f9;
+	margin-top:70px;
+	padding:70px 0px;
+}
+.client-roll a{
+	margin-left:-16px;
+}
+
+
+/*****************quicklink part css****************
+****************************************************/
+.quicklink-part{
+	background-color:#323946;
+	padding:60px 0px;
+}
+
+.quicklink-part p{
+	color:#fff;
+	margin-top:30px;
+}
+.quicklink-part h6{
+	background:url("../images/quicklink-socialicons.jpg") no-repeat 80px 10px;
+	color:#fff;
+	margin-top:10px;
+	padding:20px 0px;
+}
+.quicklink-part .custom-quicklink-item2{
+	padding:10px;
+}
+.quicklink-part h4{
+	color:#fff;
+	font-weight:bolder;
+	border-bottom:1px solid #868c94;
+	padding-bottom:14px;
+	margin-top:-2px;
+}
+.quicklink-part ul{
+	margin-top:10px;
+	
+}
+.quicklink-part ul li {
+	margin-top:10px;
+	line-height:24px;
+}
+.quicklink-part ul li a{
+	color:#868c94;
+}
+.quicklink-part ul.pull-left{
+	margin-left:-20px;
+	list-style-type:none;
+}
+.quicklink-part ul.pull-right{
+	position:relative;
+	list-style-type:none;
+	left:-40px;
+}
+.quicklink-part ol{
+	margin-top:10px;
+	
+}
+.quicklink-part ol li {
+	margin-top:10px;
+	margin-left:-40px;
+}
+
+.quicklink-part ol li a{
+	color:#fff;
+}
+.quicklink-part ol li a span{
+	font-weight:bolder;
+}
+.quicklink-part ol li:first-child {
+	background:url("../images/quicklink-menu3-callphone.jpg") no-repeat 0px -2px;
+	padding:0px 0px 10px 40px;
+}
+.quicklink-part ol li:nth-child(2) {
+	background:url("../images/quicklink-menu3-mail.jpg") no-repeat 0px -2px;
+	padding:0px 0px 10px 40px;
+}
+.quicklink-part ol li:nth-child(3) {
+	background:url("../images/quicklink-menu3-clock.jpg") no-repeat 0px -2px;
+	padding:0px 0px 10px 40px;
+}
+.quicklink-part ol li:nth-child(4) {
+	background:url("../images/quicklink-menu3-locationicon.jpg") no-repeat 0px -2px;
+	padding:0px 0px 10px 40px;
+}
+
+.quicklink-part .custom-quicklink-item2 p1{
+	color:#fff;
+	position:relative;
+	top:20px;
+}
+.quicklink-part .custom-quicklink-item2 .btn{
+	display:inline-block;
+	margin-top:30px;
+}
+.quicklink-part .custom-quicklink-button1{
+	padding:16px 80px;
+	position:relative;
+	left:-20px;
+	z-index:1;
+}
+.quicklink-part .custom-quicklink-button1 a{
+	color:#ccc;
+	position:relative;
+	left:-40px;
+	
+}
+.quicklink-part .custom-quicklink-button2{
+	left: 153px;
+    padding: 16px 40px;
+    position: relative;
+    top: -84px;
+}
+.custom-copyright-footer{
+	background-color:#282e3a;
+	color:#868c94;
+	text-align:center;
+	padding:10px 0px 6px 0px;
+}
+.custom-copyright-footer span{
+	color:#44b9e3;
+}

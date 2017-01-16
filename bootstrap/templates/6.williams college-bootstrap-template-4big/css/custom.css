@@ -1,0 +1,417 @@
+
+/***************** custom header css****************
+****************************************************/
+.custom-header{
+	text-align:center;
+}
+.custom-header h3{
+	font-weight:bold;
+}
+.custom-header img{
+	margin-top:20px;
+}
+
+/***************** custom navbar css****************
+****************************************************/
+
+.custom-navbar{
+	background:transparent;
+	border:none;
+	}
+
+.custom-navbar .custom-navbar-menu{
+	width:1020px;
+	margin:0px auto;
+}
+.custom-navbar-menu .nav li a{
+	font-size:18px;
+	padding-right:40px;
+	font-weight:bold;
+	color:#202020;
+}
+.custom-navbar-menu .nav li a:hover{
+	color:#f36371
+}
+.custom-navbar-menu .nav li.active a{
+	background:transparent;
+	color:#f36371
+}
+.custom-navbar-menu .nav li.active a:hover{
+	background:transparent;
+	color:#f36371
+}
+
+/*****************custom carousel css****************
+****************************************************/
+.custom-carousel{
+	background:url("../images/banner.png") no-repeat 100% 100%;
+	height:535px;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+.custom-carousel .carousel-inner{
+	height:535px;
+	
+}
+.custom-carousel .item{
+	height:100%;
+	margin-top:-140px;
+	margin-left:-320px;
+	
+}
+.custom-carousel .item h3{
+	font-size:55px;
+	font-weight:bolder;
+}
+.custom-carousel .item p{
+	font-size:17px;
+	text-align:justify;
+	padding-left:160px;
+	opacity:0.8;
+}
+.custom-carousel .item .btn{
+	padding:20px 40px;
+	font-size:16px;
+	font-weight:bold;
+	background-color:#f36371;
+	border:none;
+	margin-left: -420px;
+}
+.custom-carousel .item .btn:hover{
+	padding:20px 40px;
+	font-size:18px;
+	font-weight:bold;
+	background-color:#f36371;
+	border:none;
+	margin-left: -420px;
+}
+/*****************About us css****************
+****************************************************/
+.custom-about-us{
+	padding-bottom:120px;
+}
+.leftpart-about-us{
+	padding-top:120px;
+	padding-left:40px;
+}
+.rightpart-about-us{
+	padding-top:90px;
+	padding-left:60px;
+}
+.rightpart-about-us h1{
+	font-weight:bold;
+	font-size:42px;
+}
+
+.rightpart-about-us span.small-line{
+	display:inline-block;
+	width:50px;
+	height:3px;
+	background-color:#01A2A6;
+}
+.rightpart-about-us p{
+	color:#888888;
+	font-size:15px;
+	padding-top:50px;
+	text-align:justify;
+}
+.rightpart-about-us .btn{
+	margin-top:20px;
+	background-color:#fff;
+	border:2px solid#01A2A6;
+	color:#01A2A6;
+	padding:10px 40px;
+	font-weight:bold;
+	font-size:16px;
+}
+
+/*****************featured courses partcss****************
+****************************************************/
+.featured-courses-part{
+	background-color:#01A2A6;
+	padding:100px 0px;
+}
+.featured-courses-part-sub{
+	text-align:center;
+}
+.featured-courses-part-sub h1{
+	font-size:46px;
+	font-weight:bold;
+	color:#fff;
+}
+.featured-courses-part-sub .small-line1{
+	display:inline-block;
+	width:50px;
+	height:3px;
+	background-color:#fff;
+}
+.featured-courses-part-sub p{
+	padding-top:40px;
+	color:#fff;
+	opacity:0.8;
+}
+.featured-courses-gallery-sub{
+	background-color:#fff;
+	padding:0px 20px 30px;
+}
+.featured-courses-gallery-sub-image{
+	width:350px;
+	margin-left:-20px;
+}
+.featured-courses-gallery-sub h4{
+	color:#999;
+	font-size:16px;
+	padding:0px 20px;
+}
+.featured-courses-gallery-sub h3{
+	color:#F36371;
+	font-size:20px;
+	padding:0px 20px;
+	font-weight:bold;
+}
+.featured-courses-gallery-sub p{
+	color:#000;
+	font-size:14px;
+	padding:0px 20px;
+}
+
+.featured-courses-gallery-sub .featured-courses-icon{
+	padding:0px 20px;
+}
+.featured-courses-part2{
+	background-color:#01A2A6;
+	margin-top:-40px;
+}
+.featured-courses-part3{
+	background-color:#01A2A6;
+	text-align:center;
+	padding:60px 0px 80px;
+}
+.featured-courses-part3 .btn{
+	background:#F36371;
+	padding:16px 40px;
+	border:none;
+	font-weight:bold;
+	font-size:16px;
+}
+
+/*****************counter  part css****************
+****************************************************/
+.left-counter-part{
+	text-align:center;
+	padding:100px 60px;
+}
+.left-counter-part .small-line2{
+	display:inline-block;
+	width:50px;
+	height:3px;
+	background-color:#01A2A6;
+}
+.left-counter-part p{
+	padding-top:20px;
+	color:#999999;
+}
+.left-counter-part-sub{
+	padding-top:10px;
+}
+.left-counter-part-sub h1.left-counter-part-sub-menu1{
+	background:url("../images/.left-counter-part-sub-menu-image1.jpg") no-repeat 30px 0px;
+	padding:10px 0px 0px 4px;
+	font-size:30px;
+	color:#F36371;
+	font-weight:bolder;
+}
+.right-counter-part{ 
+	padding:0px 10px 0px 80px;
+}
+.left-counter-part-sub h1.left-counter-part-sub-menu2{
+	background:url("../images/.left-counter-part-sub-menu-image2.jpg") no-repeat 30px 0px;
+	padding:10px 0px 0px 4px;
+	font-size:30px;
+	color:#F36371;
+	font-weight:bolder;
+}
+.left-counter-part-sub h1.left-counter-part-sub-menu3{
+	background:url("../images/.left-counter-part-sub-menu-image3.jpg") no-repeat 30px 0px;
+	padding:10px 0px 0px 4px;
+	font-size:30px;
+	color:#F36371;
+	font-weight:bolder;
+}
+.left-counter-part-sub h1.left-counter-part-sub-menu4{
+	background:url("../images/.left-counter-part-sub-menu-image4.jpg") no-repeat 30px 0px;
+	padding:10px 0px 0px 4px;
+	font-size:30px;
+	color:#F36371;
+	font-weight:bolder;
+}
+.left-counter-part-sub span{
+	font-size:22px;
+	font-weight:500;
+	color:#000;
+}
+/*****************event part css****************
+****************************************************/
+.greycolor-container{
+	background-color:#F5F7FA;
+	padding:60px 0px;
+	margin:0 -15px;
+}
+.events{
+	text-align:center;
+}
+.events h1{
+	font-size:42px;
+	font-weight:bold;
+}
+.events .small-line3{
+	display:inline-block;
+	width:50px;
+	height:3px;
+	background-color:#01A2A6;
+}
+.custom-events{
+	padding:40px 80px;
+	text-align:center;
+}
+.custom-events-part{
+	padding:0 50px 0 100px;
+	text-align:center;
+}
+.events-small-sub-part1 {
+	background-color:#01A2A6;
+	padding:2px 10px;
+	width:100px;
+	margin-left:1px;
+}
+
+.events-small-sub-part1 a{
+	display:inline-block;
+	text-decoration:none;
+	color:#fff;
+}
+.events-small-sub-part1 a:nth-child(1){
+	font-size:38px;
+}
+.events-small-sub-part1 a:nth-child(2){
+	font-size:14px;
+	position:relative;
+	top:-6px;
+}
+.events-small-sub-part1 a:nth-child(3){
+	font-size:14px;
+	font-weight:bold;
+	padding-bottom:10px;
+	position:relative;
+	top:-6px;
+}
+.events-small-sub-part2{
+	padding-left:30px;
+	padding-top:20px;
+}
+.events-small-sub-part2 h4{
+	color:#F36384;
+	font-weight:bold;
+}
+.events-small-sub-part2 p{
+	background:url("../images/events-gallery-menu-icon1.jpg") no-repeat 0px 2px;
+	color:#8A8A96;
+	padding-left:30px;
+}
+.for-button{
+	text-align:center;
+	padding:10px;
+}
+.for-button .btn{
+	background-color:#F36371;
+	padding:16px 34px 6px;
+	font-size:16px;
+	font-weight:bold;
+	border:none;
+}
+.for-button .btn p{
+	background:url("../images/events-gallery-menu-buttonicon.jpg") no-repeat 160px 2px ;
+	padding-right:30px;
+}
+.events h2{
+	font-size:42px;
+	font-weight:bold;
+	margin-top:60px;
+}
+/*****************news part css****************
+****************************************************/
+
+.news-gallery{
+	margin-top:40px;
+}
+.news-gallery-sub{
+	background-color:#fff;
+}
+.news-gallery-sub img{
+	width:100%;
+}	
+.news-gallery-sub h4,.news-gallery-sub p,.news-gallery-sub a{
+	padding-left:20px;
+}	
+.news-gallery-sub h4{
+	font-weight:bold;
+	color:#F36371;
+	font-size:20px;
+}
+
+.news-gallery-sub p{
+	color:#888A8D;
+	font-size:14px;
+}
+.news-gallery-sub a{
+	background:url("../images/news-gallery-menu-icon-clock.jpg") no-repeat 18px 0px;
+	color:#000;
+	display:inline-block;
+	font-size:13px;
+	text-decoration:none;
+	padding: 4px 49px 30px;
+	margin-top:10px;
+}
+.for-button1{
+	text-align:center;
+	
+}
+.for-button1 .btn{
+	background-color:#F36371;
+	padding:16px 34px 16px;
+	font-size:16px;
+	font-weight:bold;
+	border:none;
+	margin: 50px 0px 45px;
+}
+
+/*****************map part css****************
+****************************************************/
+.map{
+	padding:0 15px;
+}
+/*****************footer part css****************
+****************************************************/
+.footer{
+	padding:40px 80px 0px;
+}
+.footer-part1 a{
+	text-decoration:none;
+}
+.footer-part1 a img{
+	display:inline-block;
+}
+.footer-part1 a span{
+	display:inline-block;
+	padding-left:20px;
+	color:#000;
+	font-weight:600;
+	font-size:20px;
+}
+.footer-part2{
+	padding-top:30px;
+	color:#999999;
+}
+.footer-part2 p{
+	font-weight:500;
+}

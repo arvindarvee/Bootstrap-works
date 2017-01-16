@@ -1,0 +1,5 @@
+Functional Spec:
+
+1. The entire template to be developed in css2, if possible using latest features (CSS3, HTML5).
+2. Top navigation roll over.
+3. When click on thumbnails, respective content should be shown and that image should change to on state.

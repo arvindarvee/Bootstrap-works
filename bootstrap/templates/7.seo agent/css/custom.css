@@ -1,0 +1,419 @@
+/******general css*********
+****************************/
+
+.very-small-line{
+	background-color:#ccc;
+	padding:2px 16px;
+	display:inline-block;
+	border-radius:5px;
+}
+.heading-topic{
+	font-weight:bolder;
+	font-size:36px;
+ }
+
+
+
+.small-line{                       /***** used in next banner and why people choose us*****/
+	display:inline-block;
+	padding:3px 34px;
+	background-color:#41cf7d;
+	border-radius:5px;
+}
+.common-button{
+	background-color:#ea6c56;
+	border:none;
+}
+.common-button a{
+	text-decoration:none;
+	display:inline-block;
+	color:#fff;
+	padding:10px 36px;
+	font-weight:bold;
+}
+
+/******header with navbar css*********
+****************************/
+
+.custom-navbar{
+	background-color:transparent;
+	border:none;
+	padding:54px 0px 32px 0px;
+	
+}
+.custom-navbar .navbar-header {
+	margin: -15px 0px 0px 97px;
+}
+.custom-navbar .navbar-nav{
+	margin-left:200px;
+}
+.custom-navbar .nav li a{
+	color:#000000;
+	font-weight:bolder;
+}
+.custom-navbar .nav li a:hover{
+	color:#e77a2d;
+	font-weight:bolder;
+}
+.custom-navbar .nav li.active a,.custom-navbar .nav li.active a:hover{
+	background-color:transparent;
+	color:#e77a2d;
+}
+.custom-navbar .dropdown.dropdown-menu{
+	background-color:transparent;
+}
+
+.custom-navbar.navbar-nav .dropdown a{
+    color: #555;
+    background-color: transparent;
+}
+
+ .custom-navbar .navbar-nav .dropdown a:focus,.custom-navbar .navbar-nav .dropdown  a:hover{
+	color: #e77a2d;
+	 background-color: transparent;
+ }
+
+/******custom banner css*********
+****************************/
+.custom-banner{
+	background:url("../images/banner.jpg") no-repeat 100% 100%;
+	height:634px;
+}
+.custom-banner .carousel-inner{
+	height:634px;
+	text-align:center;
+
+}
+.custom-banner .carousel-inner .item{
+		padding-top:70px;
+		
+}
+.custom-banner .carousel-inner .item h1{
+		font-size:50px;
+		color:#fff;
+		font-weight:bolder;
+}
+.custom-banner .carousel-inner .item .btn{
+		margin-top:40px;
+		background-color:#fff;
+		padding:20px 50px 10px;
+		color:#002d48;
+		font-weight:bolder;
+		border:8px solid #36a36a;
+		border-radius:16px;
+}
+.custom-banner .carousel-inner .item .btn p{
+		background:url("../images/graph--button.jpg") no-repeat 0px -4px;
+		padding-left:40px;
+}
+.custom-banner .carousel-control{
+	margin:0 -15px;
+}
+
+
+/******gallery css*********
+****************************/
+.custom-gallery{
+	padding-top:100px;
+	
+	
+}
+.common-gallery-submenu{
+	text-align:center;
+}
+.common-gallery-submenu h3{
+	color:#f16568;
+}
+.common-gallery-submenu a{
+	color:#a38682;
+	display:block;
+	padding-bottom:10px;
+}
+.common-gallery-submenu .very-small-line{
+	position:relative;
+	top:-10px;
+}
+.common-gallery-submenu p{
+	color:#aa9d8d;
+}
+/******custom nextbanner css*********
+****************************/
+.custom-nextbanner{
+	background:url("../images/next-banner.jpg") no-repeat;
+	height:706px;
+	margin-top:100px;
+}
+.custom-nextbanner-in{
+	color:#fff;
+	height:706px;
+	padding-top:126px;
+	
+	
+}
+.custom-nextbanner-in h2{
+	font-size:36px;
+	font-weight:bolder;
+	line-height:40px;
+	margin-bottom:15px;
+}
+.custom-nextbanner-in .small-line{
+	margin-bottom:65px;
+}
+.custom-nextbanner-in p{
+	text-align:justify;
+	word-spacing:6px;
+	margin-bottom:20px;
+	font-size:15px;
+}
+.custom-nextbanner-in h4{
+	background:url("../images/quote-image.jpg") no-repeat 30px 0px;
+	text-align:left;
+	font-weight:bold;
+	padding:20px 74px;
+	line-height:24px;
+	font-size:19px;
+}
+.custom-nextbanner-in  .common-button{
+	margin-top:13px;
+}
+.custom-nextbanner-in .common-button a{
+	background:url("../images/button-pen.jpg") no-repeat 6px 10px;
+}
+
+/******why people custom-analytics-topic css*********
+****************************/
+
+ .custom-analytics-topic{
+	text-align:center;
+	padding-top:95px;
+	
+ }
+ .heading-topic{
+	font-weight:bolder;
+	font-size:36px;
+	opacity:0.7;
+ }
+/******custom-analytics css*********
+****************************/
+ .custom-analytics{
+	padding:95px 0px 120px 0px;
+ }
+ .custom-analytics-sub{
+	text-align:center;
+ }
+ .custom-analytics-sub h2{
+	font-weight:bolder;
+	font-size:40px;
+ }
+ .custom-analytics-sub h4{
+	font-weight:bolder;
+	font-size:22px;
+	color:#847a85;
+ }
+/******custom-team-gallery-topic css*********
+****************************/
+ .custom-team-gallery-topic{
+	text-align:center;
+	padding-top:95px;
+	
+ }
+
+ /******custom-teamgallery css*********
+****************************/
+.custom-team-gallery{
+	background-color:#f7f8fc;
+	text-align:center;
+	padding-bottom:65px;
+}
+.custom-team-gallery-sub .common-gallery-submenu p{
+	color:#433f4e;
+}
+.custom-team-gallery-sub{
+	padding-top:60px;
+}
+.custom-team-gallery  .common-button{
+	margin-top:40px;
+}
+.custom-team-gallery  .common-button a{
+	background:url("../images/button-people.jpg") no-repeat 6px 10px;
+}
+
+ /******custom-nextbanner1 css*********
+****************************/
+.custom-nextbanner1{
+	background:url("../images/next-banner1.jpg") no-repeat;
+	height:690px;
+	color:#fff;
+}
+.custom-nextbanner1-in{
+	height:690px;
+	padding-top:105px;
+}
+
+
+.custom-nextbanner1-in h2{
+	font-size:36px;
+	font-weight:bolder;
+	line-height:40px;
+	margin-bottom:15px;
+}
+.custom-nextbanner1-in .small-line{
+	margin-bottom:65px;
+}
+.custom-nextbanner1-in p{
+	text-align:justify;
+	word-spacing:3px;
+	margin-bottom:20px;
+	font-size:15px;
+}
+.custom-nextbanner1-in h4{
+	font-weight:bold;
+	font-size:19px;
+}
+.custom-nextbanner1-in  .common-button{
+	margin-top:20px;
+}
+.custom-nextbanner1-in .common-button a{
+	background:url("../images/button-camera.jpg") no-repeat 4px 6px;
+}
+.light-left{
+	padding-left:60px;
+}
+.small-row h2{
+	font-weight:bolder;
+	color:#ea6c56;
+}.small-row .color-modified-number{
+	color:#44c686;
+}
+.small-row span{
+	display:block;
+	margin-top:-10px;
+	padding-left:6px;
+	font-size:15px;
+	color:#fff;
+	font-weight:lighter;
+}
+ /******custom-testimonial-topic css*********
+****************************/
+
+.custom-testimonials-topic{
+	text-align:center;
+	padding-top:60px;
+}
+ /******custom-testimonial css*********
+****************************/
+
+.custom-testimonials{
+	padding-top:60px;
+}
+.custom-testimonials  p{
+	background:url("../images/special-quote.jpg") no-repeat 20px 26px;
+	padding:75px 0px 55px 40px;
+	background-color:#43cb83;
+	border-radius:20px;
+	color:#fff;
+	font-size:16px;
+	border-bottom:4px solid #27a663;
+	position:relative;	
+}
+.custom-testimonials img{
+	position:absolute;
+	bottom:89px;
+	left:80px;
+}
+.custom-testimonials .testimonails-individual-1{
+	color:#ee6956;
+	background:url("../images/testimonials-m1-frank.jpg") no-repeat 10px 1px;
+	padding:10px 0px 10px 120px;
+	font-weight:bolder;
+}
+.custom-testimonials .testimonails-individual-2{
+	color:#ee6956;
+	background:url("../images/testimonials-m2-emma.jpg") no-repeat 10px 1px;
+	padding:10px 0px 10px 120px;
+	font-weight:bolder;
+}
+.custom-testimonials .testimonails-individual-3{
+	color:#ee6956;
+	background:url("../images/testimonials-m3-maria.jpg") no-repeat 10px 1px;
+	padding:10px 0px 10px 120px;
+	font-weight:bolder;
+}
+
+.custom-testimonials span{
+	color:#a98370;
+	font-size:16px;
+	display:inline-block;
+	font-weight:normal;
+}
+.custom-testimonials-button{
+	padding-top:55px;
+	text-align:center;
+	padding-bottom:100px;
+}
+/******custom-client css*********
+****************************/
+.custom-clients{
+	text-align:center;
+	background-color:#f7f8fc;
+	padding-top:80px;
+	padding-bottom:60px;
+	border-bottom:3px solid #000;
+}
+.custom-clients img{
+	display:block;
+	padding-left:80px;
+	padding-top:40px;
+}
+/******custom-footer css*********
+****************************/
+.custom-footer{
+	padding:80px 30px 0px 30px;
+	background-color:#f7f8fc;
+}
+
+.custom-footer p{
+	padding-top:16px;
+}
+.custom-footer  h3{
+	border-bottom:2px solid #44ca85;
+	padding:0px 0px 10px 0px;
+}
+.extra-footer-inpadding{
+	padding:0px 20px;
+}
+.custom-footer  a{
+	display:block;
+	padding:4px 0px 4px 30px;
+	color:#000;
+}
+.custom-footer  .icon1{
+	background:url("../images/footer-phone.jpg") no-repeat 0px 4px;
+}
+.custom-footer  .icon2{
+	background:url("../images/footer-map.jpg") no-repeat 0px 4px;
+}
+.custom-footer  .icon3{
+	background:url("../images/footer-mail.jpg") no-repeat 0px 4px;
+}
+.custom-footer .form-inline{
+	display:inline-block;
+}
+.custom-footer .form-control{
+	padding:26px 30px;
+	color:#000;
+	margin-right:14px;
+	border-radius:0px;
+}
+.custom-footer .btn{
+	margin:-30px;
+}
+
+.custom-footer .btn a{
+	padding:11px 30px;
+	color:#fff;
+	border:none;
+	display:inline-block;
+	background:url("../images/button-mail.jpg") no-repeat 2px 10px;
+}
+}

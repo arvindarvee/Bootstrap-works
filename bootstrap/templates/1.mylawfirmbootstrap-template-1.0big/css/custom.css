@@ -1,0 +1,44 @@
+.border{
+	background:url("../images/background-image.jpg") repeat;
+	padding:10px;
+}
+.custom-navbar{
+	padding:10px;
+	margin-top:10px;
+	background:url("../images/background-image.jpg") repeat;
+	border:none;
+	
+}
+.navbar .customnavbar-1 li a{
+	color:#fff;
+}
+.navbar .customnavbar-1 li a:hover{
+	color:yellow;
+}
+.navbar .customnavbar-1 li a:focus{
+	color:green;
+}
+
+.header-logo{
+	font-size:32px;
+}
+.carousel-section{
+	margin-top:40px;
+	padding-bottom:20px;
+}
+.custom-gallery{
+	top:60px;
+	position:relative;
+	text-align:center;
+	font-weight:800;
+	color:#110;
+}
+.gallery-item{
+	border:1px solid #ccc;
+	width:100%;
+	padding:10px;
+}
+.custom-footer{
+	background-color:#111111;
+	margin-top:80px;
+}

@@ -1,0 +1,296 @@
+/******general css*********
+****************************/
+body{
+	font-family:sans-serif;
+}
+/******navabr css*********
+****************************/
+.custom-navbar{
+	background-color:#1b1b1b;
+	border:none;
+	border-radius:0px;
+	padding:34px 10px 34px 60px;
+}
+.custom-navbar .navbar-header{
+	margin-top:-24px;
+}
+.custom-navbar .nav{
+	padding-right:70px;
+}
+.custom-navbar .nav li a{
+	font-size:18px;
+	font-weight:100;
+	color:#fff;
+}
+
+.custom-navbar .nav li a:hover,.custom-navbar .nav li a:focus{
+	color:#3ec6c2;
+	border-bottom:2px solid #3ec6c2;
+}
+
+/******carousel banner css*********
+****************************/
+
+.custom-banner{
+	background:url("../images/banner.jpg") no-repeat 0px 0px;
+	height:730px;
+	margin-top: -20px;
+	background-size:100% 100%
+}
+.custom-banner .carousel-inner{
+	height:730px;
+	color:#fff;
+}
+.custom-banner .carousel-inner .item{
+	padding:140px 40px 0px 680px ;
+}
+.custom-banner .carousel-inner .item h1{
+	font-size:48px;
+	font-weight:bold;
+	line-height:72px;
+}
+.custom-banner .carousel-inner .item span{
+	font-weight:lighter;
+	color:#18333a;
+	font-family:helvetica;
+}
+.custom-banner .carousel-inner .item p{
+	font-weight:100;
+	font-family:verdana;
+	font-size:24px;
+}
+.custom-banner .carousel-control{
+	margin:0 -15px;
+}
+/****** first gallery css*********
+****************************/
+.custom-firstgallery{
+	background-color:#28292d;
+	padding-bottom:74px;
+	padding-top:74px;
+}
+.custom-firstgallery-sub{
+	text-align:center;
+	color:#fff;
+}
+.custom-firstgallery-sub h1{
+	font-size:46px;
+	font-weight:100;
+}
+.custom-firstgallery-sub p{
+	font-size:22px;
+	font-weight:100;
+	font-family:verdana;
+}
+.custom-firstgallery-sub2{
+	text-align:center;
+	color:#fff;
+	padding-top:74px;
+
+}
+.custom-firstgallery-sub2 img{
+}
+.custom-firstgallery-sub2 h3{
+	color:#35b9be;
+	padding-bottom:4px;
+}
+
+/******second gallery css*********
+****************************/
+
+.custom-secondgallery{
+	background-color:#fff;
+	padding-bottom:60px;
+}
+.custom-secondgallery-sub{
+	text-align:center;
+	color:#000;
+	padding-top:74px;
+	padding-bottom:70px;
+}
+.custom-secondgallery-sub h1{
+	font-size:56px;
+	font-weight:100;
+	font-family:monospace;
+}
+.custom-secondgallery-sub p{
+	font-size:22px;
+	font-weight:100;
+	font-family:verdana;
+}
+.custom-secondgallery-sub2-in{
+	text-align:right;
+}
+
+.custom-secondgallery-sub2-in .in-1{
+	color:#3ec6c2;
+	background:url("../images/secondgallerysub-m1-lock.jpg") no-repeat 377px 0px;
+	padding:30px 104px 10px 0px;
+}
+.custom-secondgallery-sub2-in .in-2{
+	color:#3ec6c2;
+	background:url("../images/secondgallerysub-m2-paperrocket.jpg") no-repeat 370px 0px;
+	padding:30px 104px 10px 0px;
+}
+
+.custom-secondgallery-sub2-in .in-3{
+	color:#3ec6c2;
+	background:url("../images/secondgallerysub-m3-calltoy.jpg") no-repeat 376px 0px;
+	padding:30px 104px 10px 0px;
+}
+.custom-secondgallery-sub2-in p{
+	padding:0px 110px 10px 0px;
+}
+
+
+
+.custom-secondgallery-sub3-in{
+	text-align:left;
+}
+
+.custom-secondgallery-sub3-in .in-1{
+	color:#3ec6c2;
+	background:url("../images/secondgallerysub-m1-lock.jpg") no-repeat 6px 0px;
+	padding:30px 0px 10px 110px;
+}
+.custom-secondgallery-sub3-in .in-2{
+	color:#3ec6c2;
+	background:url("../images/secondgallerysub-m2-paperrocket.jpg") no-repeat 6px 0px;
+	padding:30px 0px 10px 110px;
+}
+
+.custom-secondgallery-sub3-in .in-3{
+	color:#3ec6c2;
+	background:url("../images/secondgallerysub-m3-calltoy.jpg") no-repeat 6px 0px;
+	padding:30px 0px 10px 110px;
+}
+.custom-secondgallery-sub3-in p{
+	padding:0px 0px 10px 110px;
+}
+/******custom-packages css*********
+****************************/
+
+.custom-packages{
+	background-color:#f4f4f4;
+	text-align:center;
+	padding-top:74px;
+	padding-bottom:70px;
+}
+.custom-packagessub h1{
+	font-size:56px;
+	font-weight:lighter;
+	font-family:monospace;
+}
+.custom-packagessub1{
+	padding-top:20px;
+}
+.custom-packagessub1-in {
+	background-color:#fff;
+	padding:20px 0px 40px 0px;
+}
+.custom-packagessub1-in h3{
+	font-size:26px;
+	font-weight:100;
+	color:#3ec6c2;
+	padding-bottom:16px;
+}
+
+.custom-packagessub1-in h1{
+	padding:20px 0px;
+	font-weight:lighter;
+	font-size:50px;
+	color:#fff;
+	background-color:#3ec6c2;
+}
+.custom-packagessub1-in ul{
+	margin-left:-20px;
+}
+.custom-packagessub1-in ul li {
+	list-style-type:none;
+}
+.custom-packagessub1-in ul li a {
+	color:#000;
+	font-size:24px;
+	font-weight:100;
+	display:inline-block;
+	padding:6px 0px;
+}
+.custom-packagessub1-in ul li:nth-child(1) a{
+	background:url("../images/custom-packages-icon-tick.jpg") no-repeat -2px 14px;
+	padding:12px 0px 12px 30px;
+}
+.custom-packagessub1-in ul li:nth-child(2) a{
+	background:url("../images/custom-packages-icon-tick.jpg") no-repeat 28px 14px;
+	padding:12px 0px 12px 60px;
+}
+.custom-packagessub1-in ul li:nth-child(3) a{
+	background:url("../images/custom-packages-icon-wrong.jpg") no-repeat 12px 14px;
+	padding:12px 0px 12px 46px;
+}
+.custom-packagessub1-in ul li:nth-child(4) a{
+	background:url("../images/custom-packages-icon-wrong.jpg") no-repeat -4px 14px;
+	padding:12px 0px 12px 56px;
+}
+.custom-packagessub1-in .btn{
+	background-color:#3ec6c2;
+	border-radius:0px;
+	border:none;
+	border-bottom:4px solid #279686;
+	padding:20px 46px;
+	font-size:18px;
+}
+
+/****** custom loading css*********
+****************************/
+.custom-loading{
+	background-color:#28292d;
+	padding:80px 0px;
+	text-align:center;
+}
+.custom-loading h3{
+	color:#fff;
+	font-size:26px;
+	margin-top:20px;
+}
+/****** custom newsletter css*********
+****************************/
+.custom-newsletter{
+	text-align:center;
+	padding:60px 0px;
+}
+.custom-newsletter h1{
+	font-size:52px;
+	font-family:monospace;
+}
+.custom-newsletter .form-inline{
+	display:inline-block;
+}
+.custom-newsletter .form-control{
+	padding:0px 80px;
+	color:#000;
+	margin-right:14px;
+	border-radius:0px;
+	height:64px;
+}
+.custom-newsletter .btn{
+	padding:20px 80px;
+	color:#fff;
+	background-color:#3ec6c2;
+	border-radius:0px;
+	border:none;
+	border-bottom:4px solid #279686;
+}
+/****** custom footer css*********
+****************************/
+.custom-footer {
+	background:#1b1b1b;
+	padding:60px 0px 20px 0px;
+	text-align:center;
+}
+.custom-footer h3{
+	color:#fff;
+	padding-top:10px;
+	font-weight:100;
+	font-size:20px;
+	font-family:monospace;
+}

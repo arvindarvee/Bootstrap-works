@@ -1,0 +1,30 @@
+body{
+	color:#fff;
+}
+.border{
+	border:1px solid #000;
+}
+.header1{
+	text-align:center;
+	background-color:#ffe23f;
+	margin-top:10px;
+	border-radius:50px;
+	height:200px;
+	font-size:112px;
+}
+.header2{
+	text-align:center;
+	background-color:#ffd123;
+	margin-top:10px;
+	border-radius:50px;
+	height:200px;
+	font-size:112px;
+}
+.header3{
+	text-align:center;
+	background-color:#fff123;
+	margin-top:10px;
+	border-radius:50px;
+	height:200px;
+	font-size:112px;
+}
